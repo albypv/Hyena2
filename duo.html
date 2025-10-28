@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Two Player Shooter</title>
+<link rel="stylesheet" href="duo.css">
+</head>
+<body>
+  <div class="center-container" id="startScreen">
+    <h1 class="game-title">FIGHT FOR PEACE</h1>
+    <h2>Choose Your SAVIOUR</h2>
+    <div id="characterSelect">
+      <div class="char-option">
+        <img src="assets/gandhi.jpg" class="char-img" alt="Bapu Fighter">
+        <div class="char-label">Bapu Fighter</div>
+      </div>
+      <div class="char-option">
+        <img src="assets/oochi.jpeg" class="char-img" alt="Falling Star">
+        <div class="char-label">Falling Star</div>
+      </div>
+      <div class="char-option">
+        <img src="assets/zen.png" class="char-img" alt="Hungry Zen">
+        <div class="char-label">Hungry Zen</div>
+      </div>
+    </div>
+  </div>
+  <div id="game-title">SAVE US ALL</div>
+  <canvas id="gameCanvas" width="800" height="500"></canvas>
+  
+  <div id="gameOverScreen">
+    <h1 id="winnerText"></h1>
+    <button id="restartBtn">Restart</button>
+  </div>
+
+<script src="duo.js"></script>
+</body>
+</html>
